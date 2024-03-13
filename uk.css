@@ -1,0 +1,220 @@
+/* сумая */
+main{
+    display: flex;
+    width: 20%;
+    background-color: rgb(33, 31, 31);
+    text-align: center;
+
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(33, 31, 31);
+    height: 100vh;
+    padding-left: 10%;
+    padding-top: 50px;
+}
+.nav__items1{
+    color: rgb(234, 213, 52);
+    text-decoration: none;
+    font-size: 30px;
+    padding: 0px 0px 0px 0px;
+    margin: 8px 0px;
+    font-family: "Raleway";
+    border-left: 2px solid #e1e3e9e0;
+}       
+.nav__items{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 0px 0px 0px 0px;
+    margin: 8px 45px;
+    font-family: "Raleway";
+}
+.nav__items:hover {
+    color: rgb(234, 213, 52);
+    border-left: 2px solid #e1e3e9e0;
+}
+
+
+/* Amina */
+.header{
+display: flex;
+justify-content: space-between;
+height: 100px;
+}
+
+.poisk{
+width: 19%;
+padding: 35px;
+background-color:#e1e3e9e0;
+display: flex;
+max-width: 20%;
+}
+
+.logo{
+width: 70%; 
+font-size: 40px;
+text-align: center;
+flex-grow: 1;
+}
+
+input{
+border: none;
+outline: none;
+border-bottom: 1px solid rgb(255, 255, 255) ;
+font-size: 20px;
+background: transparent;
+color: white;
+}
+
+.div_lol{
+display: flex;
+width: 85%;
+}
+.img_lol{
+margin-left: -30px;
+}
+.rec{
+    background-color: black;
+    width: 15%;
+    padding: 0;
+    margin: 0;
+    color: aliceblue;
+    text-align: center;
+}
+.rec img{
+    width: 220px;
+    margin: 10px -8px 5px -9px;
+}
+.bi_scrum{
+    background-image: url("/cosmos.jpg") ;
+    background-color: rgba(0, 0, 0, 0.068);
+    background-size: 100%;
+    height: 65%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: flex-start; /* Выравнивание по левому краю */
+    align-items: center;
+    padding: 0px 0px 0px 100px;
+}
+
+.bi_p {
+    position: absolute;
+    /* line-height: 1.5; */
+}
+.bi_p table{
+    color: rgb(234, 213, 52);
+}
+.bi_scrum td{
+    padding-right: 60px;
+    
+}
+
+.s1 li{
+    margin: 0;
+}
+
+.scri{
+    margin: 5% 1%;
+    padding-bottom: 5%;
+    /* height: 100px; */
+    background-color: #e1e3e9e0;
+    border-radius: 4px;
+    height: 20%;
+}
+
+.posishion{
+    display: flex;
+}
+
+
+.div_1{
+    width: 65%;
+}
+
+.div_2{
+    display: flex;
+    padding-top: 100px;
+}
+
+.div_b1{
+    width: 30%;
+    background-color: #e1e3e9e0;
+    /* height: 450px; */
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 3px;
+    padding: 4px;
+    vertical-align: top;
+    position: relative;
+
+}
+
+.div_b1 img{
+    width: 20px;
+}
+
+.b1_p{
+    /* height: 30px; */
+    background-color: #ffffffd2;
+    border-radius: 3px;
+    padding: 0.1px;
+    margin: 6px 0;
+}
+
+.div_3 {
+    margin: 5% 1%;
+    padding-bottom: 4%;
+    /* height: 100px; */
+    background-color: #e1e3e9e0;
+    border-radius: 4px;
+    display: flex;
+}
+.bbbo{
+    padding-left: 0;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/*  */
+.centr{
+    display: flex;
+    margin: 0 0 0 100px; 
+}
+
+.centr li{
+    list-style: none;
+    font-size: 25px;
+    padding: 5px;
+    margin-left: -10%;
+}
+
+.cen_rec{
+    border: 1px solid ;
+    width: 70%;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.126);
+    outline: none; 
+}
+
+.cen_rec input{
+    border: 0;
+}
+
+.cen_in{
+    border: 0;
+    width: 50%;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.126);
+}
